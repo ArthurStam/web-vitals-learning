@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {getLCP, getFID, getCLS} from 'web-vitals/base';
+
+getLCP(console.log);
 
 const App = () => {
   return (
